@@ -395,3 +395,83 @@ line-height: 20px;
     padding: 17px 40px;
 }
 
+/* Section categories */
+
+.categories{
+    margin-top: 80px;
+}
+.categories_inner{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.categories_item{
+    width: 370px;
+    /* margin-right: 30px; */
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    justify-content: space-between;
+    padding: 20px 20px 16px;
+    transition: all 0.3s;
+
+}
+.categories_item:hover{
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}
+
+.categories_item-info{
+    color: #2F3035;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categories_item-img{
+    text-align: center;
+    width: 50%;
+}
+
+.categories_item-img img{
+    max-width: 100%;
+}
+
+.categories_item-title{
+font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 28px;
+margin: 0px;
+transition: all 0.3s;
+}
+
+.categories_item:hover .categories_item-title{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 0px;
+    color: #1C62CD;
+    ;
+    }
+
+.categories_item-text{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #C4C4C4;
+margin: 0;
+}
+
+.categories_item-text::after{
+    content: url(../images/strelka.svg);
+    padding-left: 3px;
+}
